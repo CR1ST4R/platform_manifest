@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="kogasa"
+	   fetch="https://github.com/KogasaKyokai/"
+	   revision="Tatara" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="platform_manifest" remote="kogasa" />
+
+  <!-- Build -->
+  <project path="build/make" name="platform_build" groups="pdk" remote="kogasa" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="platform_build_soong" groups="pdk,tradefed" remote="kogasa" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Hardware -->
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="kogasa" />
+  <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="kogasa" />
+
+  <!-- Vendor -->
+  <project path="vendor/kogasa" name="platform_vendor_kogasa" remote="kogasa" />
+
+  <!-- Sepolicy -->
+  <project path="device/kogasa/sepolicy" name="platform_device_kogasa_sepolicy" remote="kogasa" />
+  <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="kogasa" />
+  <project path="device/qcom/sepolicy-legacy-um" name="platform_device_qcom_sepolicy-legacy-um" remote="kogasa" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/libs/net" name="platform_frameworks_libs_net" remote="kogasa" />
+
+  <!-- System -->
+  <project path="system/core" name="platform_system_core" remote="kogasa" />
+  <project path="system/bpf" name="platform_system_bpf" remote="kogasa" />
+
+</manifest>

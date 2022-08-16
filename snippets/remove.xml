@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Device -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/art" />
+  <remove-project name="device/generic/car" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/trusty" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/google_car" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google/vrservices" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <!-- General repos -->
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />
+
+  <!-- external -->
+  <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/tinycompress" />
+
+  <!-- Frameworks repos -->
+  <remove-project name="platform/frameworks/libs/net" />
+
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/interfaces" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/bpf" />
+
+</manifest>
