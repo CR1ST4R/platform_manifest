@@ -41,5 +41,6 @@
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="kogasa" />
   <project path="system/bpf" name="platform_system_bpf" remote="kogasa" />
+  <project path="system/libhidl" name="platform_system_libhidl" remote="kogasa" />
 
 </manifest>

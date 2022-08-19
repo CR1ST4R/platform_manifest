@@ -47,5 +47,6 @@
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/libhidl" />
 
 </manifest>
