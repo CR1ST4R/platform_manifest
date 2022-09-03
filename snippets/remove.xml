@@ -35,6 +35,11 @@
   <remove-project name="platform/bionic" />
 
   <!-- external -->
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/exfatprogs" />
+  <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
@@ -44,6 +49,8 @@
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
 
   <!-- System repos -->
   <remove-project name="platform/system/core" />
