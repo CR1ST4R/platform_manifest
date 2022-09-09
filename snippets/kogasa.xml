@@ -29,6 +29,7 @@
   <!-- Hardware -->
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="kogasa" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="kogasa" />
+  <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="kogasa" />
 
   <!-- Vendor -->
   <project path="vendor/kogasa" name="platform_vendor_kogasa" remote="kogasa" />
