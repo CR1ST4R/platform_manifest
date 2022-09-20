@@ -53,6 +53,9 @@
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sdm845/media" />
 
+  <!-- Recovery repos -->
+  <remove-project name="platform/bootable/recovery" />
+
   <!-- System repos -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bpf" />

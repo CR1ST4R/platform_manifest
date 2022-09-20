@@ -42,6 +42,9 @@
   <!-- Frameworks -->
   <project path="frameworks/libs/net" name="platform_frameworks_libs_net" remote="kogasa" />
 
+  <!-- Recovery -->
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="kogasa" />
+
   <!-- System -->
   <project path="system/core" name="platform_system_core" remote="kogasa" />
   <project path="system/bpf" name="platform_system_bpf" remote="kogasa" />
