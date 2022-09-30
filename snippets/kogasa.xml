@@ -5,6 +5,10 @@
 	   fetch="https://github.com/KogasaKyokai/"
 	   revision="Tatara" />
 
+  <remote  name="CR1ST4R"
+	   fetch="https://github.com/CR1ST4R/"
+	   revision="Tatara" />
+
   <!-- Manifest -->
   <project path="manifest" name="platform_manifest" remote="kogasa" />
 
@@ -30,9 +34,12 @@
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" remote="kogasa" />
   <project path="hardware/interfaces" name="platform_hardware_interfaces" groups="pdk" remote="kogasa" />
   <project path="hardware/google/pixel" name="platform_hardware_google_pixel" remote="kogasa" />
+  <project path="hardware/qcom/sm7250/display" name="platform_hardware_qcom_sm7250_display" remote="CR1ST4R" />
+  <project path="hardware/qcom/sm7250/media" name="platform_hardware_qcom_sm7250_media" remote="CR1ST4R" />
 
   <!-- Vendor -->
   <project path="vendor/kogasa" name="platform_vendor_kogasa" remote="kogasa" />
+  <project path="vendor/qcom/opensource/display" name="platform_vendor_qcom_opensource_display" remote="CR1ST4R" />
 
   <!-- Sepolicy -->
   <project path="device/kogasa/sepolicy" name="platform_device_kogasa_sepolicy" remote="kogasa" />

@@ -52,6 +52,8 @@
   <remove-project name="platform/hardware/google/pixel" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sm7250/display" />
+  <remove-project name="platform/hardware/qcom/sm7250/media" />
 
   <!-- Recovery repos -->
   <remove-project name="platform/bootable/recovery" />
